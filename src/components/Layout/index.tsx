@@ -44,7 +44,7 @@ function Layout({
         {forgot && (
           <Text margin="10px 0">
             <span
-              className="pointer"
+              className="span"
               onClick={() => navigate(RouteList.FORGOT_PASSWORD)}
             >
               {forgot}
