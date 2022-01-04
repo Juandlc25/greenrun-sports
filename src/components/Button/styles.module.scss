@@ -1,0 +1,26 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 122px;
+  border: none;
+  height: 66px;
+  padding: 22px 38px;
+  background: linear-gradient(99deg, #236bfe 6.69%, #0d4ed3 80.95%);
+  box-shadow: 0px 4px 30px rgba(34, 105, 251, 0.8);
+  border-radius: 25px;
+  span {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 122.02%;
+    color: #fefefe;
+  }
+}
+.disabled {
+  cursor: not-allowed;
+  background: #dddddd;
+  box-shadow: none;
+}

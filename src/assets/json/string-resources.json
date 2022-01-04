@@ -1,0 +1,47 @@
+{
+  "commom": {
+    "loginBtn": "Login",
+    "registerBtn": "Register",
+    "history": "History",
+    "toRegister": "Don't have an account?",
+    "toLogin": "Already registered?",
+    "loginHere": "Log in here.",
+    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "logout": "Logout",
+    "noSport": "There is no sport added.",
+    "deleteSport": "The sport was removed. Please refresh the page to see it.",
+    "submit": "Submit",
+    "passwordReset": "Password reset."
+  },
+  "views": {
+    "onboarding": {
+      "title": "Discover Your Best Sport With Us"
+    },
+    "login": {
+      "title": "Welcome",
+      "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "user": "User",
+      "password": "Password",
+      "forgot": "Forgot your password?",
+      "repeat": "Repeat password"
+    },
+    "forgotPassword": {
+      "title": "Forgot password",
+      "enterEmail": "Enter your email",
+      "email": "email"
+    },
+    "resetPassword": {
+      "title": "Reset password"
+    }
+  },
+  "errors": {
+    "somethingWrong": "Something wrong happened",
+    "login": "Error logging in.",
+    "signup": "Error signing up.",
+    "warning": "The button will be disabled as long as there is at least one invalid field. In case all of fields are valid, the button will be enabled.",
+    "alreadyExists": "Document card already exists in history",
+    "checkEmail": "Check email to complete.",
+    "resettingPassword": "Error resetting password.",
+    "reset": "Error resetting password."
+  }
+}
