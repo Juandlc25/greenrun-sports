@@ -1,4 +1,4 @@
-import { ReactElement, useState } from "react";
+import { ReactElement } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Onboarding from "./views/onboarding";
 import ForgotPassword from "./views/forgot-password";
@@ -28,10 +28,6 @@ export enum RouteList {
 
 function App(): ReactElement {
   const [theme, themeToggler] = useDarkMode();
-  // const [theme, setTheme] = useState("light");
-  // const themeToggler = () => {
-  //   theme === "light" ? setTheme("dark") : setTheme("light");
-  // };
   return (
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
       <GlobalStyles />
